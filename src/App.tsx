@@ -50,7 +50,7 @@ export const COACH_ROSTER: CoachProfile[] = [
     id: 'marcus',
     name: 'Marcus Vance',
     title: 'Head of Strength & Biomechanics',
-    image: '/src/assets/images/coach_marcus_strength_1793828046057.jpg',
+    image: '/assets/images/coach_marcus_strength_1793828046057.jpg',
     experience: '11 Years Floor Coaching',
     qualifications: [
       'CSCS (Certified Strength & Conditioning Specialist)',
@@ -64,7 +64,7 @@ export const COACH_ROSTER: CoachProfile[] = [
     id: 'elena',
     name: 'Elena Rostova',
     title: 'Director of Olympic Weightlifting',
-    image: '/src/assets/images/coach_elena_olympic_1793828062457.jpg',
+    image: '/assets/images/coach_elena_olympic_1793828062457.jpg',
     experience: '8 Years Competitive Platform',
     qualifications: [
       'USAW National Coach (Level 2)',
@@ -78,7 +78,7 @@ export const COACH_ROSTER: CoachProfile[] = [
     id: 'damon',
     name: 'Damon Cruz',
     title: 'Head of Durability & Conditioning',
-    image: '/src/assets/images/coach_damon_conditioning_1793828077013.jpg',
+    image: '/assets/images/coach_damon_conditioning_1793828077013.jpg',
     experience: '9 Years Pro Athlete Conditioning',
     qualifications: [
       'M.S. Exercise Physiology & Kinesiology',
@@ -275,7 +275,7 @@ const EQUIPMENT_SPECS: Record<'dumbbells' | 'plates' | 'racks', EquipmentSpecIte
     id: 'dumbbells',
     title: 'Custom Milled Hex Dumbbells',
     category: '01 · FREE WEIGHTS',
-    image: '/src/assets/images/equipment_dumbbells_rack_1793823407924.jpg',
+    image: '/assets/images/equipment_dumbbells_rack_1793823407924.jpg',
     badge: '2KG – 70KG IN MATCHED PAIRS',
     overview: 'Solid CNC-milled steel heads permanently welded to 34mm hardened chrome shafts with aggressive medium-depth volcano knurling.',
     specs: [
@@ -291,7 +291,7 @@ const EQUIPMENT_SPECS: Record<'dumbbells' | 'plates' | 'racks', EquipmentSpecIte
     id: 'plates',
     title: 'Calibrated Olympic Discs & Chrome Bars',
     category: '02 · BARBELL ARSENAL',
-    image: '/src/assets/images/equipment_barbell_plates_1793823425559.jpg',
+    image: '/assets/images/equipment_barbell_plates_1793823425559.jpg',
     badge: '±0.1% CERTIFIED TOLERANCE',
     overview: 'Thin-profile cast steel discs calibrated to within 10 grams of declared weight, accompanied by competition powerlifting and Olympic weightlifting barbells.',
     specs: [
@@ -307,7 +307,7 @@ const EQUIPMENT_SPECS: Record<'dumbbells' | 'plates' | 'racks', EquipmentSpecIte
     id: 'racks',
     title: 'Integrated Competition Power Combo Racks',
     category: '03 · LIFTING STATIONS',
-    image: '/src/assets/images/gym_workout_equipment_1793822667785.jpg',
+    image: '/assets/images/gym_workout_equipment_1793822667785.jpg',
     badge: '42 CALIBRATED PLATFORMS',
     overview: 'Full 3x3-inch heavy-gauge steel uprights mounted to shock-dampening acoustic deadlift platforms with solid white-oak centers.',
     specs: [
@@ -1405,7 +1405,7 @@ export default function App() {
                 >
                   <div className="relative h-[145px] sm:h-[200px] lg:h-[240px] overflow-hidden">
                     <img
-                      src="/src/assets/images/equipment_dumbbells_rack_1793823407924.jpg"
+                      src="/assets/images/equipment_dumbbells_rack_1793823407924.jpg"
                       alt="NOVA custom tiered hex dumbbells rack"
                       referrerPolicy="no-referrer"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -1438,7 +1438,7 @@ export default function App() {
                 >
                   <div className="relative h-[145px] sm:h-[200px] lg:h-[240px] overflow-hidden">
                     <img
-                      src="/src/assets/images/equipment_barbell_plates_1793823425559.jpg"
+                      src="/assets/images/equipment_barbell_plates_1793823425559.jpg"
                       alt="Calibrated steel Olympic weight plates and barbell"
                       referrerPolicy="no-referrer"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -1471,7 +1471,7 @@ export default function App() {
                 >
                   <div className="relative h-[145px] sm:h-[200px] lg:h-[240px] overflow-hidden">
                     <img
-                      src="/src/assets/images/gym_workout_equipment_1793822667785.jpg"
+                      src="/assets/images/gym_workout_equipment_1793822667785.jpg"
                       alt="NOVA power rack floor and lifting platforms"
                       referrerPolicy="no-referrer"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
